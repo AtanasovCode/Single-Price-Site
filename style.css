@@ -1,0 +1,89 @@
+
+
+body {
+  margin: 10% 30%;
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  opacity: 0.9;
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-1 {
+  color: hsl(218, 22%, 67%);
+  background-color: white;
+}
+
+.main-title {
+  font-weight: 700;
+}
+
+.sub-title {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.text-container-1 {
+  font-size: 15px;
+}
+
+.container-2 {
+  background-color: hsl(179, 62%, 42%);
+  color: white;
+  display: flex;
+  opacity: 0.9;
+}
+
+.container-2-2 {
+  background-color: hsl(179, 62%, 44%);
+}
+
+.container-1, .container-2 {
+  padding: 20px;
+}
+
+.container-2 > div {
+  flex: 1;
+}
+
+
+.price-number {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.price-text {
+  opacity: 0.5;
+  margin-left: 5px;
+}
+
+.btn-1 {
+  padding: 10px 40px;
+  background-color: hsl(71, 73%, 54%);
+  white-space: pre;
+  margin: 15px;
+  border: 1px solid  hsl(71, 73%, 54%);
+  color: white;
+}
+
+
+@media (max-width: 700px)
+{
+  .container-2 {
+    flex-direction: column;
+  }
+
+  .main-title {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .sub-title {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
