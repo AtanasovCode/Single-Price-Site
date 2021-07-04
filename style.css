@@ -1,15 +1,14 @@
-
-
 body {
-  margin: 10% 30%;
   background-color: hsl(204, 43%, 93%);
   font-family: 'Karla', sans-serif;
   opacity: 0.9;
 }
 
-
 .main-container {
+  height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -44,6 +43,8 @@ body {
 
 .container-1, .container-2 {
   padding: 20px;
+  width: 50%;
+  border-radius: 15px;
 }
 
 .container-2 > div {
@@ -61,6 +62,12 @@ body {
   margin-left: 5px;
 }
 
+.btn-1:hover {
+  background-color: hsl(71, 73%, 74%);
+  color: hsl(0, 0%, 60%);
+}
+
+
 .btn-1 {
   padding: 10px 40px;
   background-color: hsl(71, 73%, 54%);
@@ -68,6 +75,7 @@ body {
   margin: 15px;
   border: 1px solid  hsl(71, 73%, 54%);
   color: white;
+  cursor: pointer;
 }
 
 
@@ -85,5 +93,9 @@ body {
   .sub-title {
     font-weight: 400;
     font-size: 16px;
+  }
+
+  .container-1, .container-2 {
+    width: 65%;
   }
 }
